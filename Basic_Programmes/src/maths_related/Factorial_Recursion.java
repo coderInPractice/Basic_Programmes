@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Factorial_Recursion {
 	
 	public static long factorial(long x) {
-		if (x == 1) {
-			return x;
+		if (x == 1 || x == 0) {
+			return 1;
 		}
 		else {
 			return x * factorial(x-1);
@@ -18,7 +18,7 @@ public class Factorial_Recursion {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Enter any positive integer other than ZERO: ");
+		System.out.println("Enter any positive integer: ");
 		
 		long num = input.nextLong();
 		
