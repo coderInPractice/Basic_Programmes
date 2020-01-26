@@ -8,11 +8,11 @@ public class Armstrong_Number {
 		int n = x;
 		int c=0;
 		while (n>0) {
-			rem = n%10;
+			rem = n%10; //Extract the number.
 			
 			c = c+(rem*rem*rem);
 			
-			n = n/10;
+			n = n/10; //Truncate the number.
 		}
 		if (c==x) {
 			System.out.println("It is Armstrong Number.");
