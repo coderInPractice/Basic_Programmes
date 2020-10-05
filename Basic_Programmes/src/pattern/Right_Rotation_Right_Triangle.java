@@ -3,6 +3,15 @@ package pattern;
 import java.util.Scanner;
 
 public class Right_Rotation_Right_Triangle {
+		/*
+	 * Enter the nummber of rows: 6
+		 *
+		 **
+		 ***
+		 ****
+		 *****
+		 ******
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
