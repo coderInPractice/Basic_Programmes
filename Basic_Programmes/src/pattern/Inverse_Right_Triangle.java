@@ -2,6 +2,14 @@ package pattern;
 
 import java.util.Scanner;
 
+//Enter the number of rows:
+//5
+// *  *  *  *  * 
+// *  *  *  * 
+// *  *  * 
+// *  * 
+// * 
+
 public class Inverse_Right_Triangle {
 
 	public static void main(String[] args) {
