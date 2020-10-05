@@ -1,6 +1,15 @@
 package pattern;
 
 public class Left_Right_Triangle {
+/*  
+ * 
+ *  * 
+ *  *  * 
+ *  *  *  * 
+ *  *  *  *  * 
+ *  *  *  *  *  * 
+ */
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
